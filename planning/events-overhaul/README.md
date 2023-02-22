@@ -1,7 +1,7 @@
 # Events Overhaul
 **Other names:** Events 2.0, Advanced Events\
 **Expected release:** Winter 2023\
-**Last updated:** 2023/01/03
+**Last updated:** 2023/02/21
 
 ## Table of Contents
 - [Project Description and Motivations](#project-description-and-motivations)
@@ -9,6 +9,8 @@
   - [Current Features](#current-features)
   - [Enhanced Features](#enhanced-features)
   - [New Features](#new-features)
+- [Milestones](#milestones)
+  - [Phase 1 (MVP)](#phase-1-mvp)
 
 
 ## Project Description and Motivations
@@ -108,3 +110,13 @@ This feature might end up getting axed for the MVP however I think it would be p
 - How many tables there are in total
 
 This might have to end up being a very interactive feature to have it work as well as it needs to which is why it might be to much for the MVP.
+
+## Milestones
+
+### Phase 1 (MVP)
+Phase 1 of this project will be to essentially mimic what we currently use for a blind clock with a few enhancments. This will include features such as
+- Ability to create and attach blind structures to an event
+- Ability to edit structures after being selected
+- Blind timer which will show a timer, big blind, small blind, and ante.
+- Buttons to advance or go back to previous levels
+- Button to pause/start the timer
