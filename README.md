@@ -12,7 +12,6 @@
   - [Tickets](#tickets)
   - [Sprints](#sprints)
   - [Sprint Board](#sprint-board)
-  - [Ticket Implementation](#ticket-implementation)
 
 ## Introduction
 Welcome to the University of Waterloo Poker Studies Club Developer Hub. This repository will be your main source for information about our project as well as what we are currently working on. You can also find some of our processes to help when you are contributing to the project.
@@ -28,6 +27,10 @@ Our motto for development is:
 > If it's easy/safe enough to do it yourself, you might as well do it yourself. 
 
 This means that if an implementation of a feature can written by you without using third party libraries/applications easily and it is safe to do so (in terms of security), write it yourself. You'll learn much more about a specific area when you try and do it on your own then rely on someone else to do it for you. However, for extremely complex systems or systems that have security implications (think password hashing as an example), we would much rather use a third party library to do this for us.
+
+## Wiki
+Checkout the [Developer WIki](https://github.com/uwpokerclub/tickets/wiki) for some useful information about our processes and best practices.
+
 ## Repositories
 We have two main repositories that are used to develop the website.
 
@@ -73,9 +76,6 @@ The sprint board is simply a kanban board that we used to move tickets into the 
 **In Review**: Implementation has completed and a PR has been created pending secondary review and approval. \
 **In QA**: Implementation has been approved and the PR has been merged. Implementation is now being tested by the assigned developer and reviewer again. \
 **Done**: Implementation has successfully passed QA requirements and can be released.
-
-### Ticket Implementation
-All new work in a repository should be done on a new branch. Never commit directly to either the `develop` or `master` branches of any repository. Before you start working on a ticket, take note of the issue number. Then in the repository you are working on create a new branch off of the `develop` branch named `ticket/<ticket_number>`. For example: `ticket/175`. Once you have completed and tested your implementation, create a new PR to the `develop` branch of that repository. In the PR description you can write `Closes uwpokerclub/tickets#<ticket_number>` to link the PR to the issue, and once the PR is merged the ticket will automatically be closed. For multiple PR tickets use `Links uwpokerclub/tickets#<ticket_number>` instead.
 
 ## Code of Conduct
 Please ensure you read through our code of conduct to keep our community safe.
